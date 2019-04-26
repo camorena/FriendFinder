@@ -1,8 +1,1 @@
-[
-  {
-    name: "Ahmed",
-    photo:
-      "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-    scores: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
-  }
-];
+{"friends":[{"name":"Roger","photo":"https://i.ytimg.com/vi/bq8h94PpmcY/hqdefault.jpg","scores":[2,3,4,4,5,2,2,5,4,1]},{"name":"Peter","photo":"https://media.npr.org/assets/img/2017/09/12/macaca_nigra_self-portrait-3e0070aa19a7fe36e802253048411a38f14a79f8-s800-c85.jpg","scores":[2,3,4,4,5,2,2,5,4,1]},{"name":"Debra","photo":"https://image.pbs.org/video-assets/pbs/nature/171441/images/mezzanine_479.jpg?crop=480x270&format=jpg","scores":["2","3","4","3","1","5","3","3","3","3"]},{"name":"John","photo":"https://lacuadramagazine.com/wp-content/uploads/sangeh-monkey-forest-101.jpg","scores":["2","3","4","3","1","5","3","3","3","3"]},{"name":"Alex","photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP_uw1N2vBMU-2y4-Z7q7B2QGOpRpWDt4JZ-jYs1L66OBfRD44","scores":["2","3","4","3","1","5","3","3","3","3"]},{"name":"Angie","photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrolRH9XvihQ_DHcL5BGCM2IkEMaLMn4zyLBCtntjkI1i1D9WwMA","scores":["2","3","4","3","1","5","3","3","3","3"]},{"name":"Brian","photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR78bptUJCGTU_TgA39QE8abx8DJmwm8PoM1mSW71fmz2xnzf_I1Q","scores":["2","3","4","3","1","5","3","3","3","3"]},{"name":"Brian","photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR78bptUJCGTU_TgA39QE8abx8DJmwm8PoM1mSW71fmz2xnzf_I1Q","scores":["2","3","4","3","1","5","3","3","3","3"]}]}

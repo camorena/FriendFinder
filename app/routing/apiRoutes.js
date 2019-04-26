@@ -3,24 +3,31 @@ var path = require("path");
 
 module.exports = function(app) {
   var filename = path.resolve(__dirname, "../data/friends.js");
-  var obj = {
-    table: []
-  };
-  friends = fs.readFileSync(filename, "utf8");
 
   // List all Friends
   app.get("/api/friends", function(req, res) {
-    return res.json(friends);
+    fs.readFile(filename, "utf-8", function(err, data) {
+      if (err) throw err;
+      return res.json(JSON.parse(data));
+    });
   });
 
   //add new friend
   app.post("/api/friends", function(req, res) {
-    friends.push(JSON.stringify(req.body));
-    fs.writeFile(filename, JSON.stringify(friends), "utf8", function(err) {
-      if (err) {
-        return res.status(500).end();
-      }
-      return res.status(200).end();
+    fs.readFile(filename, "utf-8", function(err, data) {
+      if (err) throw err;
+      var objFriends = JSON.parse(data);
+      objFriends.friends.push(req.body);
+      fs.writeFile(filename, JSON.stringify(objFriends), "utf-8", function(
+        err
+      ) {
+        if (err) throw err;
+        match = Math.floor(Math.random() * objFriends.friends.length);
+        return res.json({
+          name: objFriends.friends[match].name,
+          photo: objFriends.friends[match].photo
+        });
+      });
     });
   });
 };
