@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- Font Awesome Glyphicons -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+    />
+
+    <style>
+      /* Add a gray background color and some padding to the footer */
+      survey {
+        padding: 25px;
+      }
+      /* Add a gray background color and some padding to the footer */
+      footer {
+        background-color: #f2f2f2;
+        padding: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container text-center">
+        <h1>
+          <i class="fa fa-facebook-square" aria-hidden="true"></i> Friend Finder
+        </h1>
+        <h2>Answer a few basic questions.</h2>
+        <h2>Then find the friend with the greatest compatibility!</h2>
+        <br />
+        <survey>
+          <a href="/survey">
+            <button type="button" class="btn btn-lg btn-primary">
+              <h4>
+                <span class="glyphicon glyphicon-list-alt"></span> Go to Survey
+              </h4>
+            </button>
+          </a>
+        </survey>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-3 text-center">
+      <div class="row">
+        <div class="col-sm-3">
+          <p>Taylor</p>
+          <img
+            src="http://assets.goodhousekeeping.co.uk/main/embedded/32567/amber-heard__large.jpg?20160718144946"
+            class="img-responsive"
+            style="width:300px;height:300px;"
+            alt="Image"
+          />
+        </div>
+        <div class="col-sm-3">
+          <p>Rodrigo</p>
+          <img
+            src="https://i.pinimg.com/originals/8a/6e/9c/8a6e9c20393cf96a1955bdc3741fa5ac.jpg"
+            class="img-responsive"
+            style="width:300px;height:300px;"
+            alt="Image"
+          />
+        </div>
+        <div class="col-sm-3">
+          <p>Nadia</p>
+          <img
+            src="https://www.pauznet.com/file-1918-2-picdumps-the-most-beautiful-faces-in-the-world.jpg"
+            class="img-responsive"
+            style="width:300px;height:300px;"
+            alt="Image"
+          />
+        </div>
+        <div class="col-sm-3">
+          <p>Greg</p>
+          <img
+            src="https://files.brightside.me/files/news/part_70/705510/10594160-image-crop-2900x3522-1547475361-728-cc53a4975f-1551788454.jpg"
+            class="img-responsive"
+            style="width:300px;height:300px;"
+            alt="Image"
+          />
+        </div>
+      </div>
+    </div>
+    <br />
+    <footer class="container-fluid text-center">
+      <div class="container">
+        <p>
+          <a href="/api/friends">API Friends List</a> |
+          <a href="https://github.com/camorena/FriendFinder.git">GitHub Repo</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
